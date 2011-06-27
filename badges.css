@@ -1,0 +1,132 @@
+/* http://colorschemedesigner.com/#0c31Tw0w0w0w0 */
+
+html {
+    font-family: Helvetica, Arial, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #0969A2;
+    color: #FFFFFF;
+    padding: 0px;
+    margin: 0px;
+}
+
+#loading {
+    display: none;
+    background: rgba(61, 154, 162, 0.75);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    margin: auto;
+    text-align: center;
+}
+
+#loading #pleasewait {
+    position: relative;
+    top: 50%;
+}
+
+#main {
+    background-color: #3D9AD1;
+    color: #0969A2;
+    margin: 0px 80px 2px;
+    padding: 8px;
+    border-radius: 30px;
+    -moz-border-radius: 30px;
+    text-align: center;
+}
+
+#main-top {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    -moz-border-top-left-radius: 30px;
+    -moz-border-top-right-radius: 30px;
+    background-color: #03436A;
+    color: #3D9AD1;
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+    min-height: 30px;
+    font-size: 150%;
+    margin-bottom: 8px;
+}
+
+#networks {
+    text-align: center;
+    margin-bottom: 2.2em;
+    vertical-align: baseline;
+}
+
+#fblogin {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+#footer {
+    background-color: #64A8D1;
+    color: #0969A2;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 2em;
+}
+
+#footer .current {
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+#likebtn {
+    position: absolute;
+    left: 6px;
+    bottom: 4px;
+}
+
+#homelink {
+    position: absolute;
+    left: 6px;
+    bottom: 6px;
+}
+
+#footerright {
+    position: absolute;
+    right: 6px;
+    bottom: 6px;
+}
+
+h1,h2,h3 {
+    color: #3D9AD1;
+}
+#main h1, #main h2, #main h3 {
+    color: #98F23D; /*#74E600;*/
+}
+
+h1#title {
+    color: #3D9AD1;
+    font-size: 600%;
+    margin-top: -32px;
+    margin-bottom: 16px;
+}
+
+a, a:visited {
+    color: #FF3D00;
+}
+
+a:hover {
+    color: #FF9473;
+}
+
+.button {
+    cursor: pointer;
+}
+
+#debugout, #errors {
+    display: none;
+}

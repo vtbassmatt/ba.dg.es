@@ -1,0 +1,2 @@
+# using .inc files to hold secrets, so don't check them in
+*.inc
